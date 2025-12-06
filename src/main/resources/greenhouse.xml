@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flower id="f1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="greenhouse.xsd">
+
+    <Plant id="p1">
+        <Name>Rose</Name>
+        <Soil>ground</Soil>
+        <Origin>Turkey</Origin>
+
+        <VisualParameters>
+            <StemColor>green</StemColor>
+            <LeafColor>dark-green</LeafColor>
+            <AverageSize>45</AverageSize>
+        </VisualParameters>
+
+        <GrowingTips>
+            <Temperature>22</Temperature>
+            <Lighting>true</Lighting>
+            <Watering>3</Watering>
+        </GrowingTips>
+
+        <Multiplying>seeds</Multiplying>
+    </Plant>
+
+    <Plant id="p2">
+        <Name>Orchid</Name>
+        <Soil>sod-podzolic</Soil>
+        <Origin>Thailand</Origin>
+
+        <VisualParameters>
+            <StemColor>light-green</StemColor>
+            <LeafColor>green</LeafColor>
+            <AverageSize>30</AverageSize>
+        </VisualParameters>
+
+        <GrowingTips>
+            <Temperature>25</Temperature>
+            <Lighting>true</Lighting>
+            <Watering>2</Watering>
+        </GrowingTips>
+
+        <Multiplying>leaves</Multiplying>
+    </Plant>
+
+</Flower>
